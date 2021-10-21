@@ -20,12 +20,38 @@ html{
 
 body {
   background-color: #b4d2e7;
-  /* text-align: center; */
   align-content: center;
-  padding: 2%;
+  padding: 1%;
   
 }
 
+
+h1 {
+  padding: auto;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+  
+ul {
+  list-style-position: inherit;
+  list-style-type: none;
+  margin: 0%;
+  padding: 1%;
+}
+
+.contact-info {
+  margin: 0px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+
+ 
 
 
 
