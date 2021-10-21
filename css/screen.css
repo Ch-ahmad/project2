@@ -8,13 +8,28 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+*{
+  box-sizing: border-box;
+}
+
 html{
-  font-size :12px;
-  line-height: 28px;
+  font-size :26px;
+  line-height: 30px;
   font-family: "Helvetica Neue", Helvetica, arial;
 }
-body{
-  background-color: blockquote;
-  font-family: arial;
-  font-size: 14px;
+
+body {
+  background-color: #b4d2e7;
+  /* text-align: center; */
+  align-content: center;
+  padding: 2%;
+  
 }
+
+
+
+
+
+
+
+
