@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  width: 100vw;
+}
+
+#top-bar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+#top-bar .profile-img-container {
+  margin: 1em;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#top-bar .profile-img-container .profile-image {
+  width: 100%;
+  height: 100%;
+}
+
+#top-bar .name {
+  margin-left: 1em;
+  flex: 1;
+  font-family: cursive, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#top-bar nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+#top-bar nav a {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+#top-bar nav a.current {
+  background-color: white;
+  color: black;
+}
+
+#top-bar nav a:hover {
+  background-color: cornflowerblue;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+/* Sections - START */
+.sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: gray;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0.6em 2.5em;
+  padding-bottom: 1.5em;
+  max-width: 60vw;
+  box-shadow: rgb(87, 80, 86) 1.25em 0.625em 6.25em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+section li {
+  margin: 0.5em;
+}
+
+.contact-info {
+  padding-bottom: 1.1em;
+  border-bottom: 3px solid black;
+}
